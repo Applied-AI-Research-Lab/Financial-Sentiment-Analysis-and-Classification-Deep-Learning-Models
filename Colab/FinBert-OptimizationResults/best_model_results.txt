@@ -1,0 +1,42 @@
+========== FINBERT BEST MODEL RESULTS ==========
+Date: 2025-04-11 18:13:19
+
+Best Trial Number: 59
+Best Validation Accuracy: 0.8275
+
+Hyperparameters:
+--------------
+batch_size: 16
+learning_rate: 4.98575881380721e-05
+num_epochs: 3
+optimizer: Adam
+weight_decay: 0.0013144023030408456
+warmup_ratio: 0.15596017251959468
+dropout_rate: 0.11966268445099029
+
+Performance Analysis:
+--------------
+Total trials completed: 24
+Optimization time: 136.09 minutes
+Worst trial accuracy: 0.7888 (Trial 5)
+Improvement over worst: 0.0388 (4.91%)
+Average trial accuracy: 0.7998
+Improvement over average: 0.0277 (3.46%)
+
+Parameter Importance:
+--------------
+dropout_rate: 0.4757
+batch_size: 0.1771
+learning_rate: 0.1769
+warmup_ratio: 0.0619
+weight_decay: 0.0522
+num_epochs: 0.0282
+optimizer: 0.0279
+
+========== END OF REPORT ==========
+
+========== FINAL MODEL TRAINING RESULTS ==========
+Final model trained with best hyperparameters
+Final validation accuracy: 0.8004
+Model saved to: /content/gdrive/My Drive/Projects/Financial-Sentiment/TrainedModels/final_finbert_optimized_model
+========== END OF FINAL MODEL REPORT ==========

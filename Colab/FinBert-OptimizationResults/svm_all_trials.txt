@@ -1,0 +1,1142 @@
+========== SVM HYPERPARAMETER OPTIMIZATION RESULTS ==========
+Started: 2025-04-11 16:25:34
+Number of trials: 100
+=============================================================
+
+----- Trial 0 -----
+Validation Accuracy: 0.4845
+Validation Loss: 0.6539
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+C: 0.011711394207853812
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 1 -----
+Validation Accuracy: 0.3760
+Validation Loss: 0.4269
+max_features: 5000
+ngram_range: (1, 1)
+stop_words: None
+C: 0.04759583908809258
+kernel: poly
+class_weight: None
+gamma: scale
+--------------------------
+
+----- Trial 2 -----
+Validation Accuracy: 0.4593
+Validation Loss: 0.5155
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: english
+C: 0.025874244549937135
+kernel: rbf
+class_weight: None
+gamma: auto
+--------------------------
+
+----- Trial 3 -----
+Validation Accuracy: 0.5833
+Validation Loss: 0.8979
+max_features: 10000
+ngram_range: (1, 1)
+stop_words: english
+C: 91.0140822537333
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 4 -----
+Validation Accuracy: 0.3643
+Validation Loss: 0.4524
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+C: 0.013128140906521611
+kernel: poly
+class_weight: None
+gamma: scale
+--------------------------
+
+----- Trial 5 -----
+Validation Accuracy: 0.5504
+Validation Loss: 0.7538
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+C: 68.62841441362666
+kernel: rbf
+class_weight: balanced
+gamma: auto
+--------------------------
+
+----- Trial 6 -----
+Validation Accuracy: 0.5601
+Validation Loss: 0.8131
+max_features: 10000
+ngram_range: (1, 1)
+stop_words: None
+C: 0.16927214102967633
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 7 -----
+Validation Accuracy: 0.6415
+Validation Loss: 0.9624
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+C: 18.403416219694765
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 8 -----
+Validation Accuracy: 0.3818
+Validation Loss: 0.4360
+max_features: 5000
+ngram_range: (1, 1)
+stop_words: english
+C: 10.375391918049884
+kernel: poly
+class_weight: None
+gamma: auto
+--------------------------
+
+----- Trial 9 -----
+Validation Accuracy: 0.4961
+Validation Loss: 0.6059
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.10948408944425518
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 10 -----
+Validation Accuracy: 0.5988
+Validation Loss: 0.9800
+max_features: 10000
+ngram_range: (1, 3)
+stop_words: english
+C: 2.672798597238997
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 11 -----
+Validation Accuracy: 0.6066
+Validation Loss: 0.9777
+max_features: 10000
+ngram_range: (1, 3)
+stop_words: english
+C: 2.9890317937633326
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 12 -----
+Validation Accuracy: 0.6143
+Validation Loss: 0.9715
+max_features: 10000
+ngram_range: (1, 3)
+stop_words: english
+C: 10.07487215745323
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 13 -----
+Validation Accuracy: 0.5969
+Validation Loss: 0.9579
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: english
+C: 14.958238984915619
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 14 -----
+Validation Accuracy: 0.6512
+Validation Loss: 0.9498
+max_features: None
+ngram_range: (1, 3)
+stop_words: None
+C: 17.776885929588154
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 15 -----
+Validation Accuracy: 0.5504
+Validation Loss: 0.5780
+max_features: None
+ngram_range: (1, 3)
+stop_words: None
+C: 0.49932102032599746
+kernel: rbf
+class_weight: balanced
+gamma: scale
+--------------------------
+
+----- Trial 16 -----
+Validation Accuracy: 0.6570
+Validation Loss: 0.9529
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 22.40962281537164
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 17 -----
+Validation Accuracy: 0.6570
+Validation Loss: 0.9529
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 37.86153752271931
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 18 -----
+Validation Accuracy: 0.5368
+Validation Loss: 0.5985
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 39.333966661547116
+kernel: rbf
+class_weight: None
+gamma: auto
+--------------------------
+
+----- Trial 19 -----
+Validation Accuracy: 0.5698
+Validation Loss: 0.6466
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.0194388396362934
+kernel: poly
+class_weight: balanced
+gamma: scale
+--------------------------
+
+----- Trial 20 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9814
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.846616243590439
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 21 -----
+Validation Accuracy: 0.6783
+Validation Loss: 0.9675
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.6916138392264897
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 22 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9745
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.7574896498455185
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 23 -----
+Validation Accuracy: 0.6628
+Validation Loss: 0.9339
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.4977541061290187
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 24 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9790
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.8014633931669487
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 25 -----
+Validation Accuracy: 0.5252
+Validation Loss: 0.6023
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.18294153671619418
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 26 -----
+Validation Accuracy: 0.6686
+Validation Loss: 0.9698
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.5379155632757773
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 27 -----
+Validation Accuracy: 0.6570
+Validation Loss: 0.9529
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 5.120998820997272
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 28 -----
+Validation Accuracy: 0.4496
+Validation Loss: 1.1260
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.29799032680891246
+kernel: poly
+class_weight: None
+gamma: auto
+--------------------------
+
+----- Trial 29 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.9152
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.9664377831483051
+kernel: rbf
+class_weight: None
+gamma: scale
+--------------------------
+
+----- Trial 30 -----
+Validation Accuracy: 0.6570
+Validation Loss: 0.9529
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 5.10996139586659
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 31 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9811
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.8129763210062104
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 32 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.9823
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.2303022231467722
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 33 -----
+Validation Accuracy: 0.6705
+Validation Loss: 0.9810
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.4402562302831152
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 34 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.9836
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.8753546523103424
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 35 -----
+Validation Accuracy: 0.5329
+Validation Loss: 0.5937
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.062378962512591424
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 36 -----
+Validation Accuracy: 0.3643
+Validation Loss: 0.4535
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+C: 0.2699054792877733
+kernel: poly
+class_weight: None
+gamma: auto
+--------------------------
+
+----- Trial 37 -----
+Validation Accuracy: 0.5891
+Validation Loss: 0.7086
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.09168278811033989
+kernel: rbf
+class_weight: None
+gamma: scale
+--------------------------
+
+----- Trial 38 -----
+Validation Accuracy: 0.6357
+Validation Loss: 0.9870
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+C: 3.5382980747117583
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 39 -----
+Validation Accuracy: 0.6182
+Validation Loss: 0.9822
+max_features: None
+ngram_range: (1, 2)
+stop_words: english
+C: 1.5886553500084648
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 40 -----
+Validation Accuracy: 0.4012
+Validation Loss: 1.0407
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.2887927526649595
+kernel: poly
+class_weight: None
+gamma: auto
+--------------------------
+
+----- Trial 41 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9789
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.7950342130936208
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 42 -----
+Validation Accuracy: 0.6822
+Validation Loss: 0.9716
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.7040171268622478
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 43 -----
+Validation Accuracy: 0.6512
+Validation Loss: 0.8938
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.4215684834252664
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 44 -----
+Validation Accuracy: 0.4845
+Validation Loss: 0.6541
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+C: 0.0195200210298176
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 45 -----
+Validation Accuracy: 0.4903
+Validation Loss: 0.5303
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: english
+C: 0.1673621335837514
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 46 -----
+Validation Accuracy: 0.6512
+Validation Loss: 0.9528
+max_features: None
+ngram_range: (1, 3)
+stop_words: None
+C: 2.1635129618363727
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 47 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9824
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.0346672994938348
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 48 -----
+Validation Accuracy: 0.6163
+Validation Loss: 0.9296
+max_features: None
+ngram_range: (1, 2)
+stop_words: english
+C: 4.219940333446896
+kernel: rbf
+class_weight: None
+gamma: scale
+--------------------------
+
+----- Trial 49 -----
+Validation Accuracy: 0.6221
+Validation Loss: 0.9747
+max_features: 10000
+ngram_range: (1, 1)
+stop_words: None
+C: 7.310906771087737
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 50 -----
+Validation Accuracy: 0.6628
+Validation Loss: 1.0024
+max_features: 5000
+ngram_range: (1, 3)
+stop_words: None
+C: 0.6360520684704691
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 51 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.9801
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.3476164182259893
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 52 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9824
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.0361026311526274
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 53 -----
+Validation Accuracy: 0.6609
+Validation Loss: 0.9584
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.4229464018880305
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 54 -----
+Validation Accuracy: 0.6357
+Validation Loss: 0.8739
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.37639360604192484
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 55 -----
+Validation Accuracy: 0.6764
+Validation Loss: 0.9668
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.66354339315169
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 56 -----
+Validation Accuracy: 0.5252
+Validation Loss: 0.6092
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.18773672508435243
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 57 -----
+Validation Accuracy: 0.5620
+Validation Loss: 0.7480
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: english
+C: 1.6811870326206844
+kernel: poly
+class_weight: None
+gamma: scale
+--------------------------
+
+----- Trial 58 -----
+Validation Accuracy: 0.6570
+Validation Loss: 0.9841
+max_features: 15000
+ngram_range: (1, 3)
+stop_words: None
+C: 0.9309726095849351
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 59 -----
+Validation Accuracy: 0.5368
+Validation Loss: 0.5988
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.672729942835023
+kernel: rbf
+class_weight: balanced
+gamma: auto
+--------------------------
+
+----- Trial 60 -----
+Validation Accuracy: 0.6764
+Validation Loss: 0.9652
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.6785653471162298
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 61 -----
+Validation Accuracy: 0.6802
+Validation Loss: 0.9825
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.0825934423594779
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 62 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.9824
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.2031651940970727
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 63 -----
+Validation Accuracy: 0.6667
+Validation Loss: 0.9660
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.9204264492420342
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 64 -----
+Validation Accuracy: 0.6609
+Validation Loss: 0.9378
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.5402914526414335
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 65 -----
+Validation Accuracy: 0.6260
+Validation Loss: 0.8534
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.3500600375782253
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 66 -----
+Validation Accuracy: 0.5601
+Validation Loss: 0.6901
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.22900804603340053
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 67 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9837
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.8984190689264931
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 68 -----
+Validation Accuracy: 0.6764
+Validation Loss: 0.9715
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.5229801046885002
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 69 -----
+Validation Accuracy: 0.4322
+Validation Loss: 0.5097
+max_features: None
+ngram_range: (1, 1)
+stop_words: english
+C: 0.8227782878001604
+kernel: poly
+class_weight: None
+gamma: scale
+--------------------------
+
+----- Trial 70 -----
+Validation Accuracy: 0.5329
+Validation Loss: 0.5720
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.1303662133579464
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 71 -----
+Validation Accuracy: 0.6783
+Validation Loss: 0.9805
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.1705641108253146
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 72 -----
+Validation Accuracy: 0.6860
+Validation Loss: 0.9840
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.9559625196972493
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 73 -----
+Validation Accuracy: 0.6686
+Validation Loss: 0.9673
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.6514456692241704
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 74 -----
+Validation Accuracy: 0.6609
+Validation Loss: 0.9354
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.5291762600249392
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 75 -----
+Validation Accuracy: 0.6570
+Validation Loss: 0.9531
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 3.1165946047781943
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 76 -----
+Validation Accuracy: 0.5504
+Validation Loss: 0.7463
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+C: 1.370338879365697
+kernel: rbf
+class_weight: None
+gamma: auto
+--------------------------
+
+----- Trial 77 -----
+Validation Accuracy: 0.6628
+Validation Loss: 0.9738
+max_features: 15000
+ngram_range: (1, 3)
+stop_words: None
+C: 0.7923910575215868
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 78 -----
+Validation Accuracy: 0.6202
+Validation Loss: 0.8274
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.3291820024557943
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 79 -----
+Validation Accuracy: 0.6628
+Validation Loss: 0.9636
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.0312165487478278
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 80 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9803
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.0066694585530642
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 81 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9837
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.8888282497609976
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 82 -----
+Validation Accuracy: 0.6609
+Validation Loss: 0.9382
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.5501149599741143
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 83 -----
+Validation Accuracy: 0.6550
+Validation Loss: 0.9020
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.4271662774355443
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 84 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.9801
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.3454930280037947
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 85 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9742
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.7382282346095256
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 86 -----
+Validation Accuracy: 0.3643
+Validation Loss: 0.4322
+max_features: None
+ngram_range: (1, 1)
+stop_words: english
+C: 1.144089323815609
+kernel: poly
+class_weight: None
+gamma: auto
+--------------------------
+
+----- Trial 87 -----
+Validation Accuracy: 0.6647
+Validation Loss: 0.9645
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.8326445756534204
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 88 -----
+Validation Accuracy: 0.6163
+Validation Loss: 0.8566
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.253559646895765
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 89 -----
+Validation Accuracy: 0.6415
+Validation Loss: 0.9099
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.5930587859250074
+kernel: rbf
+class_weight: None
+gamma: scale
+--------------------------
+
+----- Trial 90 -----
+Validation Accuracy: 0.6337
+Validation Loss: 0.8317
+max_features: None
+ngram_range: (1, 3)
+stop_words: None
+C: 0.43724445364974873
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 91 -----
+Validation Accuracy: 0.6822
+Validation Loss: 0.9839
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.9197323490092848
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 92 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9803
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.0005290058857308
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 93 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9739
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.7223669376003347
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 94 -----
+Validation Accuracy: 0.6725
+Validation Loss: 0.9739
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.479157402613213
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 95 -----
+Validation Accuracy: 0.6589
+Validation Loss: 0.9608
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.27504840474805
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 96 -----
+Validation Accuracy: 0.6705
+Validation Loss: 0.9881
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+C: 1.0530568649651215
+kernel: linear
+class_weight: balanced
+--------------------------
+
+----- Trial 97 -----
+Validation Accuracy: 0.6570
+Validation Loss: 0.9530
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 3.6010487334503893
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 98 -----
+Validation Accuracy: 0.6337
+Validation Loss: 0.8673
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.36926813329536334
+kernel: linear
+class_weight: None
+--------------------------
+
+----- Trial 99 -----
+Validation Accuracy: 0.6279
+Validation Loss: 0.9574
+max_features: None
+ngram_range: (1, 2)
+stop_words: english
+C: 0.7600617774156205
+kernel: linear
+class_weight: None
+--------------------------
+
+========== OPTIMIZATION SUMMARY ==========
+Completed: 2025-04-11 16:33:22
+Total optimization time: 7.87 minutes
+Number of trials: 100
+Number of completed trials: 100
+
+----- Trial 0 -----
+Validation Accuracy: 0.4419
+Validation Loss: 1.1438
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+C: 79.53655832884768
+kernel: poly
+class_weight: None
+gamma: scale
+--------------------------

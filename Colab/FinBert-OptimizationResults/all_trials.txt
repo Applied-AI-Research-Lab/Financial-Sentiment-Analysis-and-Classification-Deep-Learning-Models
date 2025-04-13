@@ -1,0 +1,274 @@
+========== FINBERT HYPERPARAMETER OPTIMIZATION RESULTS ==========
+Started: 2025-04-11 15:57:14
+Number of trials: 100
+=============================================================
+
+----- Trial 0 -----
+Validation Accuracy: 0.8043
+Batch Size: 16
+Learning Rate: 9.883731167307301e-05
+Number of Epochs: 3
+Optimizer: Adam
+Weight Decay: 1.812249897555332e-05
+Warmup Ratio: 0.19460520071344836
+Dropout Rate: 0.10872215577338783
+--------------------------
+
+----- Trial 5 -----
+Validation Accuracy: 0.7888
+Batch Size: 8
+Learning Rate: 8.126058564017888e-05
+Number of Epochs: 10
+Optimizer: AdamW
+Weight Decay: 0.0014035299644954455
+Warmup Ratio: 0.12107007072035006
+Dropout Rate: 0.21492093313805946
+--------------------------
+
+----- Trial 7 -----
+Validation Accuracy: 0.7965
+Batch Size: 4
+Learning Rate: 7.274448955032222e-05
+Number of Epochs: 3
+Optimizer: Adam
+Weight Decay: 0.0024663180875589396
+Warmup Ratio: 0.01875441439976975
+Dropout Rate: 0.26509711245326706
+--------------------------
+
+----- Trial 8 -----
+Validation Accuracy: 0.7946
+Batch Size: 32
+Learning Rate: 5.543515631677898e-05
+Number of Epochs: 4
+Optimizer: AdamW
+Weight Decay: 8.801919762125617e-06
+Warmup Ratio: 0.026875790897854523
+Dropout Rate: 0.2647276687236906
+--------------------------
+
+----- Trial 18 -----
+Validation Accuracy: 0.8062
+Batch Size: 16
+Learning Rate: 5.329770645523595e-05
+Number of Epochs: 8
+Optimizer: Adam
+Weight Decay: 0.0024130584668293907
+Warmup Ratio: 0.09695020447413139
+Dropout Rate: 0.3074817112864218
+--------------------------
+
+----- Trial 21 -----
+Validation Accuracy: 0.7984
+Batch Size: 16
+Learning Rate: 6.662640084149188e-05
+Number of Epochs: 6
+Optimizer: Adam
+Weight Decay: 0.00435395148901141
+Warmup Ratio: 0.046841301937265475
+Dropout Rate: 0.25250511326420955
+--------------------------
+
+----- Trial 22 -----
+Validation Accuracy: 0.7946
+Batch Size: 16
+Learning Rate: 5.9623215160293785e-05
+Number of Epochs: 9
+Optimizer: Adam
+Weight Decay: 0.0029916783747446084
+Warmup Ratio: 0.051911210907973536
+Dropout Rate: 0.1756350370048073
+--------------------------
+
+----- Trial 26 -----
+Validation Accuracy: 0.8023
+Batch Size: 32
+Learning Rate: 9.950566439153908e-05
+Number of Epochs: 7
+Optimizer: AdamW
+Weight Decay: 0.0017321552692389443
+Warmup Ratio: 0.08158016878212655
+Dropout Rate: 0.29968982647354325
+--------------------------
+
+----- Trial 31 -----
+Validation Accuracy: 0.8004
+Batch Size: 16
+Learning Rate: 6.663722050833919e-05
+Number of Epochs: 6
+Optimizer: AdamW
+Weight Decay: 0.004754868742868332
+Warmup Ratio: 0.08369686561270434
+Dropout Rate: 0.23612852313400562
+--------------------------
+
+----- Trial 32 -----
+Validation Accuracy: 0.7946
+Batch Size: 32
+Learning Rate: 7.10554460121508e-05
+Number of Epochs: 8
+Optimizer: AdamW
+Weight Decay: 0.005692740471152267
+Warmup Ratio: 0.08989906282345769
+Dropout Rate: 0.2257098643737076
+--------------------------
+
+----- Trial 39 -----
+Validation Accuracy: 0.7926
+Batch Size: 8
+Learning Rate: 3.736126461553204e-05
+Number of Epochs: 8
+Optimizer: AdamW
+Weight Decay: 0.0007402164422432436
+Warmup Ratio: 0.10530430656330395
+Dropout Rate: 0.19726214175697188
+--------------------------
+
+----- Trial 48 -----
+Validation Accuracy: 0.8043
+Batch Size: 16
+Learning Rate: 7.49483027460452e-05
+Number of Epochs: 2
+Optimizer: Adam
+Weight Decay: 0.0011907559700569021
+Warmup Ratio: 0.1893934462289233
+Dropout Rate: 0.21638002487135835
+--------------------------
+
+----- Trial 49 -----
+Validation Accuracy: 0.7926
+Batch Size: 4
+Learning Rate: 8.768522961933652e-05
+Number of Epochs: 2
+Optimizer: AdamW
+Weight Decay: 0.0011563368952458733
+Warmup Ratio: 0.18677760816415806
+Dropout Rate: 0.20563527021274547
+--------------------------
+
+----- Trial 51 -----
+Validation Accuracy: 0.8004
+Batch Size: 16
+Learning Rate: 9.958507628896159e-05
+Number of Epochs: 2
+Optimizer: Adam
+Weight Decay: 0.00559291280127984
+Warmup Ratio: 0.1806479721893647
+Dropout Rate: 0.22966538517654386
+--------------------------
+
+----- Trial 53 -----
+Validation Accuracy: 0.8081
+Batch Size: 16
+Learning Rate: 7.954736306677901e-05
+Number of Epochs: 2
+Optimizer: Adam
+Weight Decay: 0.0026812548306981475
+Warmup Ratio: 0.16052122551850673
+Dropout Rate: 0.21651770313238117
+--------------------------
+
+----- Trial 54 -----
+Validation Accuracy: 0.8023
+Batch Size: 16
+Learning Rate: 7.435969435155802e-05
+Number of Epochs: 3
+Optimizer: Adam
+Weight Decay: 0.0008413342677825397
+Warmup Ratio: 0.19876608049729275
+Dropout Rate: 0.1337746169301942
+--------------------------
+
+----- Trial 59 -----
+Validation Accuracy: 0.8275
+Batch Size: 16
+Learning Rate: 4.98575881380721e-05
+Number of Epochs: 3
+Optimizer: Adam
+Weight Decay: 0.0013144023030408456
+Warmup Ratio: 0.15596017251959468
+Dropout Rate: 0.11966268445099029
+--------------------------
+
+----- Trial 60 -----
+Validation Accuracy: 0.8062
+Batch Size: 4
+Learning Rate: 5.2377724124203745e-05
+Number of Epochs: 3
+Optimizer: Adam
+Weight Decay: 0.00033125121674195855
+Warmup Ratio: 0.15710504504115083
+Dropout Rate: 0.10025569042361429
+--------------------------
+
+----- Trial 61 -----
+Validation Accuracy: 0.8004
+Batch Size: 4
+Learning Rate: 3.957467513057236e-05
+Number of Epochs: 3
+Optimizer: Adam
+Weight Decay: 0.00026900956693602104
+Warmup Ratio: 0.15119147005314515
+Dropout Rate: 0.11821538895593597
+--------------------------
+
+----- Trial 62 -----
+Validation Accuracy: 0.7984
+Batch Size: 4
+Learning Rate: 5.118275458405567e-05
+Number of Epochs: 2
+Optimizer: Adam
+Weight Decay: 0.001370140755079933
+Warmup Ratio: 0.1617824129615567
+Dropout Rate: 0.10262890946789548
+--------------------------
+
+----- Trial 67 -----
+Validation Accuracy: 0.8023
+Batch Size: 16
+Learning Rate: 5.9343222758941404e-05
+Number of Epochs: 4
+Optimizer: Adam
+Weight Decay: 0.00034468824853548603
+Warmup Ratio: 0.1563351838985647
+Dropout Rate: 0.1429827943418926
+--------------------------
+
+----- Trial 79 -----
+Validation Accuracy: 0.7888
+Batch Size: 16
+Learning Rate: 8.323292742995405e-05
+Number of Epochs: 2
+Optimizer: Adam
+Weight Decay: 0.0017171802141792822
+Warmup Ratio: 0.18114028795281698
+Dropout Rate: 0.33195158569720196
+--------------------------
+
+----- Trial 81 -----
+Validation Accuracy: 0.8004
+Batch Size: 16
+Learning Rate: 5.847348571092987e-05
+Number of Epochs: 4
+Optimizer: Adam
+Weight Decay: 0.00028177017024881584
+Warmup Ratio: 0.1583231602779359
+Dropout Rate: 0.1433840892998444
+--------------------------
+
+----- Trial 90 -----
+Validation Accuracy: 0.7907
+Batch Size: 4
+Learning Rate: 2.8201388952446246e-05
+Number of Epochs: 2
+Optimizer: Adam
+Weight Decay: 0.00020515671558004976
+Warmup Ratio: 0.13030429826757708
+Dropout Rate: 0.12863724687445588
+--------------------------
+
+========== OPTIMIZATION SUMMARY ==========
+Completed: 2025-04-11 18:13:19
+Total optimization time: 136.08 minutes
+Number of trials: 100
+Number of completed trials: 24

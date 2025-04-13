@@ -1,0 +1,99 @@
+========== RANDOM FOREST BEST MODEL RESULTS ==========
+Date: 2025-04-13 02:44:26
+
+Best Trial Number: 70
+Best Validation Accuracy: 0.6725
+
+Hyperparameters:
+--------------
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 151
+max_depth: 40
+min_samples_split: 7
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+
+Performance Analysis:
+--------------
+Total trials completed: 100
+Optimization time: 6.98 minutes
+Worst trial accuracy: 0.4981 (Trial 3)
+Improvement over worst: 0.1744 (35.02%)
+Average trial accuracy: 0.6257
+Improvement over average: 0.0468 (7.48%)
+
+Parameter Importance:
+--------------
+rf_max_features: 0.5500
+min_samples_leaf: 0.1573
+bootstrap: 0.1486
+max_depth: 0.0306
+ngram_range: 0.0263
+stop_words: 0.0201
+class_weight: 0.0198
+n_estimators: 0.0165
+max_features: 0.0162
+min_samples_split: 0.0146
+
+========== END OF REPORT ==========
+
+========== FINAL MODEL EVALUATION ==========
+Validation Accuracy: 0.6725
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.72      0.67      0.69       172
+           1       0.65      0.62      0.64       172
+           2       0.66      0.72      0.69       172
+
+    accuracy                           0.67       516
+   macro avg       0.67      0.67      0.67       516
+weighted avg       0.67      0.67      0.67       516
+
+
+========== TEST SET EVALUATION ==========
+Test Accuracy: 0.6531
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.62      0.63       172
+           1       0.70      0.64      0.67       172
+           2       0.62      0.70      0.66       172
+
+    accuracy                           0.65       516
+   macro avg       0.66      0.65      0.65       516
+weighted avg       0.66      0.65      0.65       516
+
+Average prediction time: 0.042986 seconds
+========== END OF FINAL EVALUATION ==========
+
+========== FEATURE IMPORTANCE ==========
+Top 20 Most Important Features:
+the: 0.020174
+down: 0.017423
+and: 0.011244
+up: 0.010906
+long: 0.009445
+lower: 0.008913
+transaction: 0.008668
+fell: 0.007509
+respectively: 0.007096
+an: 0.007038
+positive: 0.006718
+position: 0.006716
+is: 0.006704
+are: 0.006594
+tsla: 0.006030
+rose: 0.005930
+will: 0.005711
+with: 0.005690
+be: 0.005642
+mn: 0.005638
+
+Complete feature importance saved to: /content/gdrive/My Drive/Projects/Financial-Sentiment/OptimizationResults/rf_feature_importance.csv
+
+Final model saved to: /content/gdrive/My Drive/Projects/Financial-Sentiment/TrainedModels/rf_optimized_model.joblib

@@ -1,0 +1,67 @@
+========== SVM BEST MODEL RESULTS ==========
+Date: 2025-04-12 20:17:58
+
+Best Trial Number: 81
+Best Validation Accuracy: 0.6899
+
+Hyperparameters:
+--------------
+max_features: None
+ngram_range: (1, 3)
+stop_words: None
+C: 0.7872848202502869
+kernel: linear
+class_weight: None
+
+Performance Analysis:
+--------------
+Total trials completed: 100
+Optimization time: 8.65 minutes
+Worst trial accuracy: 0.3236 (Trial 48)
+Improvement over worst: 0.3663 (113.17%)
+Average trial accuracy: 0.6134
+Improvement over average: 0.0766 (12.48%)
+
+Parameter Importance:
+--------------
+kernel: 0.5439
+max_features: 0.2078
+ngram_range: 0.1591
+C: 0.0597
+class_weight: 0.0236
+stop_words: 0.0059
+
+========== END OF REPORT ==========
+
+========== FINAL MODEL EVALUATION ==========
+Validation Accuracy: 0.6899
+Validation Loss: 0.9668
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.66      0.70       172
+           1       0.70      0.67      0.69       172
+           2       0.64      0.74      0.69       172
+
+    accuracy                           0.69       516
+   macro avg       0.69      0.69      0.69       516
+weighted avg       0.69      0.69      0.69       516
+
+
+========== TEST SET EVALUATION ==========
+Test Accuracy: 0.6453
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.68      0.57      0.62       172
+           1       0.71      0.60      0.65       172
+           2       0.58      0.77      0.66       172
+
+    accuracy                           0.65       516
+   macro avg       0.66      0.65      0.64       516
+weighted avg       0.66      0.65      0.64       516
+
+Average prediction time: 0.001777 seconds
+========== END OF FINAL EVALUATION ==========
+
+Final model saved to: /content/gdrive/My Drive/Projects/Financial-Sentiment/TrainedModels/svm_optimized_model.joblib

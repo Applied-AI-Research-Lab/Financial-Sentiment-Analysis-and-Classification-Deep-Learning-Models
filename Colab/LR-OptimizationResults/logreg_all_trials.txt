@@ -1,0 +1,1323 @@
+
+----- Trial 0 -----
+Validation Accuracy: 0.6550
+Validation Loss: 0.8356
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+C: 8.959369794479093
+class_weight: balanced
+max_iter: 1000
+penalty: l2
+solver: newton-cg
+--------------------------
+
+----- Trial 1 -----
+Validation Accuracy: 0.6570
+Validation Loss: 0.9819
+max_features: 10000
+ngram_range: (1, 1)
+stop_words: None
+C: 57.225171875259896
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: saga
+--------------------------
+
+----- Trial 2 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.021514639609917247
+class_weight: None
+max_iter: 400
+penalty: none
+solver: sag
+--------------------------
+
+----- Trial 3 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: english
+C: 58.06169609534306
+class_weight: None
+max_iter: 900
+penalty: none
+solver: sag
+--------------------------
+
+----- Trial 4 -----
+Validation Accuracy: 0.6609
+Validation Loss: 0.8112
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 5.652060043786464
+class_weight: None
+max_iter: 200
+penalty: l2
+solver: saga
+--------------------------
+
+----- Trial 5 -----
+Validation Accuracy: 0.6512
+Validation Loss: 0.8474
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+C: 4.700164257012973
+class_weight: None
+max_iter: 600
+penalty: l1
+solver: saga
+--------------------------
+
+----- Trial 6 -----
+Validation Accuracy: 0.6240
+Validation Loss: 0.9003
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: english
+C: 1.0114622882616333
+class_weight: balanced
+max_iter: 300
+penalty: elasticnet
+solver: saga
+l1_ratio: 0.23699387097114122
+--------------------------
+
+----- Trial 7 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+C: 34.42955329205432
+class_weight: balanced
+max_iter: 700
+penalty: none
+solver: lbfgs
+--------------------------
+
+----- Trial 8 -----
+Validation Accuracy: 0.3547
+Validation Loss: 1.0944
+max_features: None
+ngram_range: (1, 3)
+stop_words: english
+C: 0.4086791219867026
+class_weight: None
+max_iter: 700
+penalty: l1
+solver: liblinear
+--------------------------
+
+----- Trial 9 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+C: 0.033935289365269274
+class_weight: balanced
+max_iter: 900
+penalty: none
+solver: lbfgs
+--------------------------
+
+----- Trial 10 -----
+Validation Accuracy: 0.6085
+Validation Loss: 1.0186
+max_features: None
+ngram_range: (1, 3)
+stop_words: english
+C: 0.26826868191975795
+class_weight: None
+max_iter: 100
+penalty: l2
+solver: saga
+--------------------------
+
+----- Trial 11 -----
+Validation Accuracy: 0.6589
+Validation Loss: 0.8311
+max_features: 10000
+ngram_range: (1, 1)
+stop_words: None
+C: 9.8331190231854
+class_weight: balanced
+max_iter: 100
+penalty: l2
+solver: saga
+--------------------------
+
+----- Trial 12 -----
+Validation Accuracy: 0.6492
+Validation Loss: 0.8089
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+C: 5.677226994187828
+class_weight: balanced
+max_iter: 100
+penalty: l2
+solver: saga
+--------------------------
+
+----- Trial 13 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+C: 1.8242746748597385
+class_weight: None
+max_iter: 200
+penalty: none
+solver: saga
+--------------------------
+
+----- Trial 14 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: 5000
+ngram_range: (1, 3)
+stop_words: None
+C: 15.999318055999368
+class_weight: None
+max_iter: 200
+penalty: none
+solver: newton-cg
+--------------------------
+
+----- Trial 15 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.8312
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.0253860322029253
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: lbfgs
+--------------------------
+
+----- Trial 16 -----
+Validation Accuracy: 0.6512
+Validation Loss: 1.0284
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.11417784496005319
+class_weight: None
+max_iter: 400
+penalty: l2
+solver: lbfgs
+--------------------------
+
+----- Trial 17 -----
+Validation Accuracy: 0.6725
+Validation Loss: 0.8294
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.106896694423866
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: lbfgs
+--------------------------
+
+----- Trial 18 -----
+Validation Accuracy: 0.6240
+Validation Loss: 0.8736
+max_features: None
+ngram_range: (1, 2)
+stop_words: english
+C: 1.9033695147636447
+class_weight: balanced
+max_iter: 400
+penalty: l2
+solver: lbfgs
+--------------------------
+
+----- Trial 19 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.9258
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.4916537840789838
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: lbfgs
+--------------------------
+
+----- Trial 20 -----
+Validation Accuracy: 0.6492
+Validation Loss: 1.0397
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.09093430746635126
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: sag
+--------------------------
+
+----- Trial 21 -----
+Validation Accuracy: 0.6725
+Validation Loss: 0.9271
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.4840375156738075
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: lbfgs
+--------------------------
+
+----- Trial 22 -----
+Validation Accuracy: 0.6860
+Validation Loss: 0.8648
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.670302140257938
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 23 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.9129
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.8918672151720878
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 24 -----
+Validation Accuracy: 0.6725
+Validation Loss: 0.8663
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+C: 1.038343445724583
+class_weight: balanced
+max_iter: 600
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 25 -----
+Validation Accuracy: 0.6298
+Validation Loss: 1.0454
+max_features: None
+ngram_range: (1, 3)
+stop_words: None
+C: 0.15566890318249185
+class_weight: balanced
+max_iter: 400
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 26 -----
+Validation Accuracy: 0.6221
+Validation Loss: 0.8736
+max_features: None
+ngram_range: (1, 2)
+stop_words: english
+C: 2.7455525136036316
+class_weight: balanced
+max_iter: 200
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 27 -----
+Validation Accuracy: 0.6822
+Validation Loss: 0.9182
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.8358641133447312
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 28 -----
+Validation Accuracy: 0.6357
+Validation Loss: 1.0709
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.05647166633574143
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 29 -----
+Validation Accuracy: 0.6667
+Validation Loss: 0.9460
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.24393618888908178
+class_weight: balanced
+max_iter: 700
+penalty: l2
+solver: newton-cg
+--------------------------
+
+----- Trial 30 -----
+Validation Accuracy: 0.6395
+Validation Loss: 1.0895
+max_features: 5000
+ngram_range: (1, 3)
+stop_words: None
+C: 0.011135642033887548
+class_weight: balanced
+max_iter: 600
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 31 -----
+Validation Accuracy: 0.6860
+Validation Loss: 0.9067
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.964600770363689
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 32 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.9292
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.7292856035170461
+class_weight: balanced
+max_iter: 400
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 33 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.9006
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.0404697475394147
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 34 -----
+Validation Accuracy: 0.6899
+Validation Loss: 0.8885
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.2139819230036748
+class_weight: balanced
+max_iter: 200
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 35 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.8200
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 3.633184662245043
+class_weight: balanced
+max_iter: 200
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 36 -----
+Validation Accuracy: 0.6434
+Validation Loss: 0.9780
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+C: 14.172706400750304
+class_weight: balanced
+max_iter: 100
+penalty: l1
+solver: saga
+--------------------------
+
+----- Trial 37 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: None
+ngram_range: (1, 2)
+stop_words: english
+C: 1.1664892926522963
+class_weight: balanced
+max_iter: 200
+penalty: none
+solver: sag
+--------------------------
+
+----- Trial 38 -----
+Validation Accuracy: 0.4942
+Validation Loss: 1.0427
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.3096588472746002
+class_weight: balanced
+max_iter: 800
+penalty: elasticnet
+solver: saga
+l1_ratio: 0.965108330571826
+--------------------------
+
+----- Trial 39 -----
+Validation Accuracy: 0.6492
+Validation Loss: 0.8134
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+C: 6.5690743913330945
+class_weight: balanced
+max_iter: 1000
+penalty: l2
+solver: sag
+--------------------------
+
+----- Trial 40 -----
+Validation Accuracy: 0.6453
+Validation Loss: 0.8230
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: english
+C: 3.5617220346050655
+class_weight: balanced
+max_iter: 400
+penalty: l1
+solver: liblinear
+--------------------------
+
+----- Trial 41 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.8744
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.462046295212287
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 42 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.8802
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.3530553935560798
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 43 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.367722841949063
+class_weight: balanced
+max_iter: 200
+penalty: none
+solver: saga
+--------------------------
+
+----- Trial 44 -----
+Validation Accuracy: 0.6667
+Validation Loss: 0.9429
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.613960148535249
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 45 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+C: 3.078714709623413
+class_weight: balanced
+max_iter: 400
+penalty: none
+solver: newton-cg
+--------------------------
+
+----- Trial 46 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.8212
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+C: 1.551112535854983
+class_weight: None
+max_iter: 100
+penalty: l2
+solver: newton-cg
+--------------------------
+
+----- Trial 47 -----
+Validation Accuracy: 0.6415
+Validation Loss: 1.0041
+max_features: None
+ngram_range: (1, 3)
+stop_words: None
+C: 0.3365410547832515
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 48 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+C: 34.87766922566779
+class_weight: None
+max_iter: 200
+penalty: none
+solver: lbfgs
+--------------------------
+
+----- Trial 49 -----
+Validation Accuracy: 0.6202
+Validation Loss: 1.0391
+max_features: None
+ngram_range: (1, 2)
+stop_words: english
+C: 0.19120630916687228
+class_weight: balanced
+max_iter: 400
+penalty: elasticnet
+solver: saga
+l1_ratio: 0.032153617703697734
+--------------------------
+
+----- Trial 50 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: 10000
+ngram_range: (1, 1)
+stop_words: None
+C: 5.062993366335738
+class_weight: balanced
+max_iter: 100
+penalty: none
+solver: sag
+--------------------------
+
+----- Trial 51 -----
+Validation Accuracy: 0.6686
+Validation Loss: 0.9380
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.6534858236712
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 52 -----
+Validation Accuracy: 0.6899
+Validation Loss: 0.8890
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.2060092795985595
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 53 -----
+Validation Accuracy: 0.6783
+Validation Loss: 0.7784
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.5353440246887287
+class_weight: balanced
+max_iter: 300
+penalty: l1
+solver: saga
+--------------------------
+
+----- Trial 54 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.8756
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.4392661764897097
+class_weight: balanced
+max_iter: 200
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 55 -----
+Validation Accuracy: 0.5155
+Validation Loss: 1.0273
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.44138739986182624
+class_weight: balanced
+max_iter: 200
+penalty: l1
+solver: liblinear
+--------------------------
+
+----- Trial 56 -----
+Validation Accuracy: 0.6609
+Validation Loss: 0.8016
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 8.509692616572925
+class_weight: None
+max_iter: 100
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 57 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: 5000
+ngram_range: (1, 3)
+stop_words: None
+C: 1.1737869239487138
+class_weight: balanced
+max_iter: 200
+penalty: none
+solver: saga
+--------------------------
+
+----- Trial 58 -----
+Validation Accuracy: 0.6686
+Validation Loss: 0.8268
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.2595963493382376
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: saga
+--------------------------
+
+----- Trial 59 -----
+Validation Accuracy: 0.6279
+Validation Loss: 0.9778
+max_features: None
+ngram_range: (1, 2)
+stop_words: english
+C: 0.6150610439401474
+class_weight: balanced
+max_iter: 200
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 60 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 91.45266877365773
+class_weight: None
+max_iter: 400
+penalty: none
+solver: newton-cg
+--------------------------
+
+----- Trial 61 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.8761
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.4307591262023946
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 62 -----
+Validation Accuracy: 0.6860
+Validation Loss: 0.8716
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.5190385316140906
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 63 -----
+Validation Accuracy: 0.6686
+Validation Loss: 0.8150
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 4.12963887759385
+class_weight: balanced
+max_iter: 200
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 64 -----
+Validation Accuracy: 0.6860
+Validation Loss: 0.8581
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.8400164296929222
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 65 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.8739332735117332
+class_weight: balanced
+max_iter: 500
+penalty: none
+solver: lbfgs
+--------------------------
+
+----- Trial 66 -----
+Validation Accuracy: 0.6647
+Validation Loss: 0.8601
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+C: 1.226619785663739
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 67 -----
+Validation Accuracy: 0.6783
+Validation Loss: 0.8273
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+C: 2.503217930878076
+class_weight: balanced
+max_iter: 900
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 68 -----
+Validation Accuracy: 0.6705
+Validation Loss: 0.9026
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+C: 0.6487743920619569
+class_weight: balanced
+max_iter: 100
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 69 -----
+Validation Accuracy: 0.6570
+Validation Loss: 0.9631
+max_features: None
+ngram_range: (1, 3)
+stop_words: None
+C: 0.3920336555113604
+class_weight: balanced
+max_iter: 600
+penalty: l2
+solver: sag
+--------------------------
+
+----- Trial 70 -----
+Validation Accuracy: 0.6609
+Validation Loss: 0.8160
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+C: 1.9216085878499014
+class_weight: balanced
+max_iter: 700
+penalty: l2
+solver: newton-cg
+--------------------------
+
+----- Trial 71 -----
+Validation Accuracy: 0.6841
+Validation Loss: 0.8689
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.5776499410728466
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 72 -----
+Validation Accuracy: 0.6860
+Validation Loss: 0.9055
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.9785289884459155
+class_weight: balanced
+max_iter: 200
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 73 -----
+Validation Accuracy: 0.6783
+Validation Loss: 0.8323
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.806079770792698
+class_weight: balanced
+max_iter: 400
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 74 -----
+Validation Accuracy: 0.6589
+Validation Loss: 0.9586
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.5030426380419588
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 75 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.8793
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.3695416780687117
+class_weight: balanced
+max_iter: 400
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 76 -----
+Validation Accuracy: 0.5484
+Validation Loss: 0.9667
+max_features: None
+ngram_range: (1, 2)
+stop_words: english
+C: 0.815083053768511
+class_weight: balanced
+max_iter: 400
+penalty: l1
+solver: saga
+--------------------------
+
+----- Trial 77 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.8966
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.0944061758891586
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 78 -----
+Validation Accuracy: 0.6802
+Validation Loss: 0.8535
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.3231861707993262
+class_weight: balanced
+max_iter: 400
+penalty: l2
+solver: saga
+--------------------------
+
+----- Trial 79 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 3.7604267124736475
+class_weight: None
+max_iter: 500
+penalty: none
+solver: sag
+--------------------------
+
+----- Trial 80 -----
+Validation Accuracy: 0.6628
+Validation Loss: 0.8024
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 7.2244567625521725
+class_weight: balanced
+max_iter: 400
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 81 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.9004
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.0437927720253375
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 82 -----
+Validation Accuracy: 0.6822
+Validation Loss: 0.8527
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.9954302201116745
+class_weight: balanced
+max_iter: 600
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 83 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.8785
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.3850800545713666
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 84 -----
+Validation Accuracy: 0.6202
+Validation Loss: 0.9450
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.7972614151873882
+class_weight: balanced
+max_iter: 400
+penalty: elasticnet
+solver: saga
+l1_ratio: 0.7777761326302766
+--------------------------
+
+----- Trial 85 -----
+Validation Accuracy: 0.6085
+Validation Loss: 0.9534
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+C: 0.5076038073227803
+class_weight: balanced
+max_iter: 200
+penalty: l1
+solver: liblinear
+--------------------------
+
+----- Trial 86 -----
+Validation Accuracy: 0.6802
+Validation Loss: 0.8195
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+C: 2.937265310600863
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 87 -----
+Validation Accuracy: 0.6609
+Validation Loss: 0.8346
+max_features: 5000
+ngram_range: (1, 3)
+stop_words: None
+C: 1.6905483137257002
+class_weight: balanced
+max_iter: 600
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 88 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: english
+C: 1.1046657142550185
+class_weight: balanced
+max_iter: 300
+penalty: none
+solver: saga
+--------------------------
+
+----- Trial 89 -----
+Validation Accuracy: 0.6686
+Validation Loss: 0.8267
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 2.229337520499389
+class_weight: balanced
+max_iter: 400
+penalty: l2
+solver: lbfgs
+--------------------------
+
+----- Trial 90 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.23821798265028607
+class_weight: balanced
+max_iter: 300
+penalty: none
+solver: newton-cg
+--------------------------
+
+----- Trial 91 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.8960
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.1026976380321316
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 92 -----
+Validation Accuracy: 0.6744
+Validation Loss: 0.9311
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.7119997849942845
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 93 -----
+Validation Accuracy: 0.6860
+Validation Loss: 0.9087
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.9397485491820705
+class_weight: balanced
+max_iter: 500
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 94 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.8815
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.3305524196730105
+class_weight: balanced
+max_iter: 200
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 95 -----
+Validation Accuracy: 0.6783
+Validation Loss: 0.9205
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.5281485198313427
+class_weight: balanced
+max_iter: 400
+penalty: l2
+solver: sag
+--------------------------
+
+----- Trial 96 -----
+Validation Accuracy: 0.6609
+Validation Loss: 0.9821
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.3669352593611824
+class_weight: None
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 97 -----
+Validation Accuracy: 0.0000
+Validation Loss: inf
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.648968317017277
+class_weight: balanced
+max_iter: 200
+penalty: none
+solver: lbfgs
+--------------------------
+
+----- Trial 98 -----
+Validation Accuracy: 0.6880
+Validation Loss: 0.9012
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.0329517876939809
+class_weight: balanced
+max_iter: 600
+penalty: l2
+solver: liblinear
+--------------------------
+
+----- Trial 99 -----
+Validation Accuracy: 0.6764
+Validation Loss: 0.8240
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+C: 2.2120324418358868
+class_weight: balanced
+max_iter: 300
+penalty: l2
+solver: liblinear
+--------------------------
+
+========== OPTIMIZATION SUMMARY ==========
+Completed: 2025-04-13 02:53:06
+Total optimization time: 0.78 minutes
+Number of trials: 100
+Number of completed trials: 100
+
+----- Trial 0 -----
+Validation Accuracy: 0.6589
+Validation Loss: 0.9904
+max_features: 10000
+ngram_range: (1, 1)
+stop_words: None
+C: 61.808878319740096
+class_weight: None
+max_iter: 400
+penalty: l2
+solver: newton-cg
+--------------------------

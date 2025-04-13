@@ -1,0 +1,34 @@
+========== SVM BEST MODEL RESULTS ==========
+Date: 2025-04-11 16:33:22
+
+Best Trial Number: 72
+Best Validation Accuracy: 0.6860
+
+Hyperparameters:
+--------------
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 0.9559625196972493
+kernel: linear
+class_weight: None
+
+Performance Analysis:
+--------------
+Total trials completed: 100
+Optimization time: 7.87 minutes
+Worst trial accuracy: 0.3643 (Trial 4)
+Improvement over worst: 0.3217 (88.30%)
+Average trial accuracy: 0.6130
+Improvement over average: 0.0731 (11.92%)
+
+Parameter Importance:
+--------------
+kernel: 0.6766
+ngram_range: 0.2161
+class_weight: 0.0419
+stop_words: 0.0342
+C: 0.0173
+max_features: 0.0138
+
+========== END OF REPORT ==========

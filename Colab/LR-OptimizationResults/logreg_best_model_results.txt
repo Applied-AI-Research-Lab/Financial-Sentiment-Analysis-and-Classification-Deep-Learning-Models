@@ -1,0 +1,70 @@
+========== LOGISTIC REGRESSION BEST MODEL RESULTS ==========
+Date: 2025-04-13 02:53:06
+
+Best Trial Number: 34
+Best Validation Accuracy: 0.6899
+
+Hyperparameters:
+--------------
+max_features: None
+ngram_range: (1, 2)
+stop_words: None
+C: 1.2139819230036748
+class_weight: balanced
+max_iter: 200
+penalty_solver_combo: ('l2', 'liblinear')
+
+Performance Analysis:
+--------------
+Total trials completed: 100
+Optimization time: 0.78 minutes
+Worst trial accuracy: 0.0000 (Trial 2)
+Absolute improvement over worst: 0.6899
+Average trial accuracy: 0.5385
+Absolute improvement over average: 0.1514
+Percentage improvement over average: 28.12%
+
+Parameter Importance:
+--------------
+penalty_solver_combo: 0.9638
+max_features: 0.0211
+C: 0.0144
+stop_words: 0.0004
+ngram_range: 0.0002
+max_iter: 0.0001
+class_weight: 0.0001
+
+========== END OF REPORT ==========
+
+========== FINAL MODEL EVALUATION ==========
+Validation Accuracy: 0.6899
+Validation Loss: 0.8885
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.75      0.63      0.69       172
+           1       0.69      0.70      0.69       172
+           2       0.65      0.74      0.69       172
+
+    accuracy                           0.69       516
+   macro avg       0.69      0.69      0.69       516
+weighted avg       0.69      0.69      0.69       516
+
+
+========== TEST SET EVALUATION ==========
+Test Accuracy: 0.6492
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.68      0.56      0.61       172
+           1       0.70      0.62      0.66       172
+           2       0.59      0.77      0.67       172
+
+    accuracy                           0.65       516
+   macro avg       0.66      0.65      0.65       516
+weighted avg       0.66      0.65      0.65       516
+
+Average prediction time: 0.000828 seconds
+========== END OF FINAL EVALUATION ==========
+
+Final model saved to: /content/gdrive/My Drive/Projects/Financial-Sentiment/TrainedModels/logreg_optimized_model.joblib

@@ -1,0 +1,42 @@
+========== BERT BASE UNCASED BEST MODEL RESULTS ==========
+Date: 2025-04-12 06:26:24
+
+Best Trial Number: 82
+Best Validation Accuracy: 0.8372
+
+Hyperparameters:
+--------------
+batch_size: 4
+learning_rate: 3.6336965055274686e-05
+num_epochs: 3
+optimizer: Adam
+weight_decay: 0.0009019742673806002
+warmup_ratio: 0.03087406805222745
+dropout_rate: 0.12108379422054434
+
+Performance Analysis:
+--------------
+Total trials completed: 25
+Optimization time: 147.83 minutes
+Worst trial accuracy: 0.8101 (Trial 63)
+Improvement over worst: 0.0271 (3.35%)
+Average trial accuracy: 0.8227
+Improvement over average: 0.0145 (1.76%)
+
+Parameter Importance:
+--------------
+learning_rate: 0.5785
+dropout_rate: 0.2006
+warmup_ratio: 0.1139
+weight_decay: 0.0586
+num_epochs: 0.0294
+optimizer: 0.0157
+batch_size: 0.0033
+
+========== END OF REPORT ==========
+
+========== FINAL MODEL TRAINING RESULTS ==========
+Final model trained with best hyperparameters
+Final validation accuracy: 0.7965
+Model saved to: /content/gdrive/My Drive/Projects/Financial-Sentiment/TrainedModels/final_bert_optimized_model
+========== END OF FINAL MODEL REPORT ==========

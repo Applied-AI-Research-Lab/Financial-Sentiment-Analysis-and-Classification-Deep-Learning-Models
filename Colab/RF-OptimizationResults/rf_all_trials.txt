@@ -1,0 +1,1410 @@
+========== RANDOM FOREST HYPERPARAMETER OPTIMIZATION RESULTS ==========
+Started: 2025-04-13 02:37:44
+Number of trials: 100
+=============================================================
+
+----- Trial 0 -----
+Validation Accuracy: 0.6202
+max_features: 10000
+ngram_range: (1, 3)
+stop_words: english
+n_estimators: 55
+max_depth: 80
+min_samples_split: 12
+min_samples_leaf: 6
+rf_max_features: sqrt
+bootstrap: False
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 1 -----
+Validation Accuracy: 0.5000
+max_features: 10000
+ngram_range: (1, 3)
+stop_words: english
+n_estimators: 262
+max_depth: 80
+min_samples_split: 15
+min_samples_leaf: 6
+rf_max_features: None
+bootstrap: False
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 2 -----
+Validation Accuracy: 0.5891
+max_features: None
+ngram_range: (1, 3)
+stop_words: english
+n_estimators: 342
+max_depth: 100
+min_samples_split: 12
+min_samples_leaf: 1
+rf_max_features: sqrt
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 3 -----
+Validation Accuracy: 0.4981
+max_features: None
+ngram_range: (1, 3)
+stop_words: None
+n_estimators: 406
+max_depth: 80
+min_samples_split: 20
+min_samples_leaf: 10
+rf_max_features: log2
+bootstrap: False
+class_weight: balanced
+--------------------------
+
+----- Trial 4 -----
+Validation Accuracy: 0.6318
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+n_estimators: 337
+max_depth: 50
+min_samples_split: 12
+min_samples_leaf: 1
+rf_max_features: sqrt
+bootstrap: True
+class_weight: None
+--------------------------
+
+----- Trial 5 -----
+Validation Accuracy: 0.5174
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: english
+n_estimators: 186
+max_depth: 90
+min_samples_split: 6
+min_samples_leaf: 1
+rf_max_features: None
+bootstrap: False
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 6 -----
+Validation Accuracy: 0.6453
+max_features: 5000
+ngram_range: (1, 3)
+stop_words: None
+n_estimators: 487
+max_depth: 80
+min_samples_split: 5
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: False
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 7 -----
+Validation Accuracy: 0.6202
+max_features: 15000
+ngram_range: (1, 3)
+stop_words: english
+n_estimators: 85
+max_depth: 30
+min_samples_split: 13
+min_samples_leaf: 6
+rf_max_features: sqrt
+bootstrap: False
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 8 -----
+Validation Accuracy: 0.5911
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+n_estimators: 484
+max_depth: 80
+min_samples_split: 5
+min_samples_leaf: 5
+rf_max_features: log2
+bootstrap: False
+class_weight: balanced
+--------------------------
+
+----- Trial 9 -----
+Validation Accuracy: 0.5116
+max_features: 5000
+ngram_range: (1, 3)
+stop_words: None
+n_estimators: 370
+max_depth: 80
+min_samples_split: 12
+min_samples_leaf: 8
+rf_max_features: None
+bootstrap: False
+class_weight: balanced
+--------------------------
+
+----- Trial 10 -----
+Validation Accuracy: 0.6434
+max_features: 5000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 491
+max_depth: 50
+min_samples_split: 2
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: True
+class_weight: None
+--------------------------
+
+----- Trial 11 -----
+Validation Accuracy: 0.6415
+max_features: 5000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 494
+max_depth: 50
+min_samples_split: 2
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: True
+class_weight: None
+--------------------------
+
+----- Trial 12 -----
+Validation Accuracy: 0.6376
+max_features: 5000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 441
+max_depth: 10
+min_samples_split: 2
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: True
+class_weight: None
+--------------------------
+
+----- Trial 13 -----
+Validation Accuracy: 0.6143
+max_features: 5000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 247
+max_depth: 60
+min_samples_split: 7
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: True
+class_weight: None
+--------------------------
+
+----- Trial 14 -----
+Validation Accuracy: 0.6066
+max_features: 5000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 426
+max_depth: 60
+min_samples_split: 8
+min_samples_leaf: 4
+rf_max_features: log2
+bootstrap: True
+class_weight: None
+--------------------------
+
+----- Trial 15 -----
+Validation Accuracy: 0.6609
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 499
+max_depth: 30
+min_samples_split: 4
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 16 -----
+Validation Accuracy: 0.6221
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 187
+max_depth: 30
+min_samples_split: 9
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 17 -----
+Validation Accuracy: 0.6531
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 383
+max_depth: 40
+min_samples_split: 4
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 18 -----
+Validation Accuracy: 0.5988
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 318
+max_depth: 30
+min_samples_split: 4
+min_samples_leaf: 8
+rf_max_features: log2
+bootstrap: False
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 19 -----
+Validation Accuracy: 0.5833
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 388
+max_depth: 10
+min_samples_split: 9
+min_samples_leaf: 4
+rf_max_features: None
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 20 -----
+Validation Accuracy: 0.6512
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 439
+max_depth: 20
+min_samples_split: 15
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 21 -----
+Validation Accuracy: 0.6550
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 453
+max_depth: 20
+min_samples_split: 15
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 22 -----
+Validation Accuracy: 0.6570
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 441
+max_depth: 40
+min_samples_split: 20
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 23 -----
+Validation Accuracy: 0.6202
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 451
+max_depth: 20
+min_samples_split: 19
+min_samples_leaf: 4
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 24 -----
+Validation Accuracy: 0.6570
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 450
+max_depth: 40
+min_samples_split: 17
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 25 -----
+Validation Accuracy: 0.5620
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 299
+max_depth: 40
+min_samples_split: 18
+min_samples_leaf: 5
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced
+--------------------------
+
+----- Trial 26 -----
+Validation Accuracy: 0.5581
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: english
+n_estimators: 413
+max_depth: 40
+min_samples_split: 17
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 27 -----
+Validation Accuracy: 0.6260
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 467
+max_depth: 60
+min_samples_split: 17
+min_samples_leaf: 4
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 28 -----
+Validation Accuracy: 0.6105
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 370
+max_depth: 40
+min_samples_split: 20
+min_samples_leaf: 7
+rf_max_features: sqrt
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 29 -----
+Validation Accuracy: 0.5775
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: english
+n_estimators: 226
+max_depth: 30
+min_samples_split: 17
+min_samples_leaf: 3
+rf_max_features: None
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 30 -----
+Validation Accuracy: 0.5988
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+n_estimators: 123
+max_depth: 70
+min_samples_split: 10
+min_samples_leaf: 10
+rf_max_features: sqrt
+bootstrap: True
+class_weight: balanced
+--------------------------
+
+----- Trial 31 -----
+Validation Accuracy: 0.6550
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 459
+max_depth: 20
+min_samples_split: 15
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 32 -----
+Validation Accuracy: 0.6550
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 417
+max_depth: 20
+min_samples_split: 16
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 33 -----
+Validation Accuracy: 0.6628
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 463
+max_depth: 30
+min_samples_split: 14
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 34 -----
+Validation Accuracy: 0.6434
+max_features: None
+ngram_range: (1, 1)
+stop_words: english
+n_estimators: 500
+max_depth: 40
+min_samples_split: 13
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 35 -----
+Validation Accuracy: 0.6570
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 349
+max_depth: 30
+min_samples_split: 14
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 36 -----
+Validation Accuracy: 0.5795
+max_features: 10000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 396
+max_depth: 50
+min_samples_split: 19
+min_samples_leaf: 1
+rf_max_features: None
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 37 -----
+Validation Accuracy: 0.5950
+max_features: None
+ngram_range: (1, 3)
+stop_words: english
+n_estimators: 427
+max_depth: 40
+min_samples_split: 20
+min_samples_leaf: 1
+rf_max_features: sqrt
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 38 -----
+Validation Accuracy: 0.6105
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+n_estimators: 471
+max_depth: 30
+min_samples_split: 18
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 39 -----
+Validation Accuracy: 0.6434
+max_features: 10000
+ngram_range: (1, 3)
+stop_words: None
+n_estimators: 471
+max_depth: 100
+min_samples_split: 11
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 40 -----
+Validation Accuracy: 0.6163
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: english
+n_estimators: 351
+max_depth: 70
+min_samples_split: 16
+min_samples_leaf: 5
+rf_max_features: sqrt
+bootstrap: True
+class_weight: balanced
+--------------------------
+
+----- Trial 41 -----
+Validation Accuracy: 0.6628
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 281
+max_depth: 30
+min_samples_split: 14
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 42 -----
+Validation Accuracy: 0.6550
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 288
+max_depth: 30
+min_samples_split: 13
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 43 -----
+Validation Accuracy: 0.6105
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 132
+max_depth: 40
+min_samples_split: 18
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 44 -----
+Validation Accuracy: 0.6531
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 477
+max_depth: 50
+min_samples_split: 14
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: False
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 45 -----
+Validation Accuracy: 0.5988
+max_features: 15000
+ngram_range: (1, 3)
+stop_words: None
+n_estimators: 500
+max_depth: 10
+min_samples_split: 11
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 46 -----
+Validation Accuracy: 0.5717
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 57
+max_depth: 20
+min_samples_split: 16
+min_samples_leaf: 2
+rf_max_features: None
+bootstrap: True
+class_weight: balanced_subsample
+--------------------------
+
+----- Trial 47 -----
+Validation Accuracy: 0.6415
+max_features: 10000
+ngram_range: (1, 2)
+stop_words: None
+n_estimators: 439
+max_depth: 30
+min_samples_split: 12
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: True
+class_weight: balanced
+--------------------------
+
+----- Trial 48 -----
+Validation Accuracy: 0.6628
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 264
+max_depth: 50
+min_samples_split: 19
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 49 -----
+Validation Accuracy: 0.6415
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 248
+max_depth: 50
+min_samples_split: 20
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 50 -----
+Validation Accuracy: 0.5717
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 201
+max_depth: 70
+min_samples_split: 19
+min_samples_leaf: 6
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 51 -----
+Validation Accuracy: 0.6609
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 328
+max_depth: 50
+min_samples_split: 19
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 52 -----
+Validation Accuracy: 0.6609
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 268
+max_depth: 60
+min_samples_split: 19
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 53 -----
+Validation Accuracy: 0.6609
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 273
+max_depth: 60
+min_samples_split: 7
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 54 -----
+Validation Accuracy: 0.5872
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 322
+max_depth: 60
+min_samples_split: 19
+min_samples_leaf: 9
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 55 -----
+Validation Accuracy: 0.6512
+max_features: 5000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 234
+max_depth: 50
+min_samples_split: 14
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 56 -----
+Validation Accuracy: 0.6570
+max_features: 15000
+ngram_range: (1, 3)
+stop_words: None
+n_estimators: 302
+max_depth: 90
+min_samples_split: 18
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 57 -----
+Validation Accuracy: 0.5194
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 264
+max_depth: 70
+min_samples_split: 10
+min_samples_leaf: 1
+rf_max_features: None
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 58 -----
+Validation Accuracy: 0.6221
+max_features: 10000
+ngram_range: (1, 1)
+stop_words: english
+n_estimators: 222
+max_depth: 60
+min_samples_split: 3
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 59 -----
+Validation Accuracy: 0.6260
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 327
+max_depth: 10
+min_samples_split: 5
+min_samples_leaf: 4
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 60 -----
+Validation Accuracy: 0.6531
+max_features: 5000
+ngram_range: (1, 2)
+stop_words: None
+n_estimators: 289
+max_depth: 50
+min_samples_split: 19
+min_samples_leaf: 2
+rf_max_features: sqrt
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 61 -----
+Validation Accuracy: 0.6609
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 271
+max_depth: 60
+min_samples_split: 5
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 62 -----
+Validation Accuracy: 0.6570
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 253
+max_depth: 70
+min_samples_split: 8
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 63 -----
+Validation Accuracy: 0.6647
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 283
+max_depth: 60
+min_samples_split: 7
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 64 -----
+Validation Accuracy: 0.6628
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 208
+max_depth: 50
+min_samples_split: 6
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 65 -----
+Validation Accuracy: 0.6628
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 207
+max_depth: 50
+min_samples_split: 6
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 66 -----
+Validation Accuracy: 0.6550
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 174
+max_depth: 30
+min_samples_split: 6
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 67 -----
+Validation Accuracy: 0.6376
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 157
+max_depth: 50
+min_samples_split: 6
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 68 -----
+Validation Accuracy: 0.6628
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 204
+max_depth: 40
+min_samples_split: 4
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 69 -----
+Validation Accuracy: 0.6124
+max_features: None
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 209
+max_depth: 40
+min_samples_split: 3
+min_samples_leaf: 4
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 70 -----
+Validation Accuracy: 0.6725
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 151
+max_depth: 40
+min_samples_split: 7
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 71 -----
+Validation Accuracy: 0.6647
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 161
+max_depth: 40
+min_samples_split: 7
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 72 -----
+Validation Accuracy: 0.6725
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 149
+max_depth: 40
+min_samples_split: 7
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 73 -----
+Validation Accuracy: 0.6512
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 131
+max_depth: 40
+min_samples_split: 7
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 74 -----
+Validation Accuracy: 0.6260
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 109
+max_depth: 40
+min_samples_split: 8
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 75 -----
+Validation Accuracy: 0.5194
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: english
+n_estimators: 156
+max_depth: 30
+min_samples_split: 9
+min_samples_leaf: 7
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 76 -----
+Validation Accuracy: 0.5136
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 159
+max_depth: 40
+min_samples_split: 7
+min_samples_leaf: 2
+rf_max_features: None
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 77 -----
+Validation Accuracy: 0.6260
+max_features: 5000
+ngram_range: (1, 3)
+stop_words: None
+n_estimators: 187
+max_depth: 50
+min_samples_split: 7
+min_samples_leaf: 1
+rf_max_features: sqrt
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 78 -----
+Validation Accuracy: 0.6492
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 173
+max_depth: 30
+min_samples_split: 8
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: balanced
+--------------------------
+
+----- Trial 79 -----
+Validation Accuracy: 0.6473
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+n_estimators: 107
+max_depth: 40
+min_samples_split: 10
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 80 -----
+Validation Accuracy: 0.6337
+max_features: 10000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 138
+max_depth: 50
+min_samples_split: 5
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 81 -----
+Validation Accuracy: 0.6705
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 144
+max_depth: 50
+min_samples_split: 6
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 82 -----
+Validation Accuracy: 0.6570
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 95
+max_depth: 50
+min_samples_split: 6
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 83 -----
+Validation Accuracy: 0.6705
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 142
+max_depth: 40
+min_samples_split: 9
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 84 -----
+Validation Accuracy: 0.6376
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 71
+max_depth: 40
+min_samples_split: 8
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 85 -----
+Validation Accuracy: 0.6415
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 144
+max_depth: 30
+min_samples_split: 9
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 86 -----
+Validation Accuracy: 0.6202
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 108
+max_depth: 20
+min_samples_split: 11
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 87 -----
+Validation Accuracy: 0.6240
+max_features: None
+ngram_range: (1, 1)
+stop_words: english
+n_estimators: 151
+max_depth: 40
+min_samples_split: 7
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: balanced
+--------------------------
+
+----- Trial 88 -----
+Validation Accuracy: 0.6357
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 167
+max_depth: 30
+min_samples_split: 9
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 89 -----
+Validation Accuracy: 0.5252
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 120
+max_depth: 30
+min_samples_split: 12
+min_samples_leaf: 2
+rf_max_features: None
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 90 -----
+Validation Accuracy: 0.5678
+max_features: 15000
+ngram_range: (1, 3)
+stop_words: None
+n_estimators: 121
+max_depth: 40
+min_samples_split: 10
+min_samples_leaf: 4
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 91 -----
+Validation Accuracy: 0.6705
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 178
+max_depth: 50
+min_samples_split: 6
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 92 -----
+Validation Accuracy: 0.6725
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 169
+max_depth: 60
+min_samples_split: 7
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 93 -----
+Validation Accuracy: 0.6395
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 188
+max_depth: 60
+min_samples_split: 5
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 94 -----
+Validation Accuracy: 0.6415
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 176
+max_depth: 60
+min_samples_split: 7
+min_samples_leaf: 1
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 95 -----
+Validation Accuracy: 0.6415
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 145
+max_depth: 60
+min_samples_split: 8
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 96 -----
+Validation Accuracy: 0.6667
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 164
+max_depth: 40
+min_samples_split: 6
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 97 -----
+Validation Accuracy: 0.6570
+max_features: 15000
+ngram_range: (1, 2)
+stop_words: None
+n_estimators: 195
+max_depth: 50
+min_samples_split: 6
+min_samples_leaf: 2
+rf_max_features: sqrt
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 98 -----
+Validation Accuracy: 0.6609
+max_features: 5000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 166
+max_depth: 40
+min_samples_split: 4
+min_samples_leaf: 3
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+----- Trial 99 -----
+Validation Accuracy: 0.6705
+max_features: 15000
+ngram_range: (1, 1)
+stop_words: None
+n_estimators: 133
+max_depth: 40
+min_samples_split: 6
+min_samples_leaf: 2
+rf_max_features: log2
+bootstrap: False
+class_weight: None
+--------------------------
+
+========== OPTIMIZATION SUMMARY ==========
+Completed: 2025-04-13 02:44:26
+Total optimization time: 6.98 minutes
+Number of trials: 100
+Number of completed trials: 100

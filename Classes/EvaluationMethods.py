@@ -1,6 +1,8 @@
+import matplotlib
 import pandas as pd
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import matplotlib.pyplot as plt
+matplotlib.use('TkAgg')
 import os
 import seaborn as sns
 
@@ -101,7 +103,7 @@ class EvaluationMethods:
         sns.heatmap(cm, annot=True, fmt="d", cmap="Blues")
         plt.xlabel('Predicted')
         plt.ylabel('True')
-        plt.title('Confusion Matrix \n('+prediction_column+')')
+        plt.title('Confusion Matrix \n(' + prediction_column + ')')
         plt.show()
 
     """
@@ -142,6 +144,7 @@ class EvaluationMethods:
     column1 (str): The name of the first column with string labels.
     column2 (str): The name of the second column with string labels.
     """
+
     def plot_grouped_bar_chart(self, original_column, prediction_column):
         data = pd.read_csv(self.pre_path + self.dataset_path)
         pivot_table = data.groupby([original_column, prediction_column]).size().unstack(fill_value=0)
@@ -195,23 +198,34 @@ EVM = EvaluationMethods(dataset_path='test_set.csv')
 # print(str(EVM.count_matching_rows('Sentiment', 'ft_gpt_4o_mini_prediction')))
 # print(str(EVM.count_matching_rows('Sentiment', 'gpt_4o_prediction')))
 # print(str(EVM.count_matching_rows('Sentiment', 'ft_gpt_4o_prediction')))
-# print(str(EVM.count_matching_rows('SentimentNumerical', 'bert_optimizer_Adam_lr_2e-05_epochs_3_bs_6_maxlen_512_prediction')))
-# print(str(EVM.count_matching_rows('SentimentNumerical', 'bert_optimizer_AdamW_lr_2e-05_epochs_3_bs_6_maxlen_512_prediction')))
+# print(str(EVM.count_matching_rows('SentimentNumerical', 'BERT_bayes_opt_prediction')))
+# print(str(EVM.count_matching_rows('SentimentNumerical', 'FINBERT_bayes_opt_prediction')))
 # print(str(EVM.count_matching_rows('SentimentNumerical', 'svm_predictions')))
+# print(str(EVM.count_matching_rows('SentimentNumerical', 'rf_predictions')))
+# print(str(EVM.count_matching_rows('SentimentNumerical', 'logreg_predictions')))
 
 # # Evaluate the predictions made by each model
-# print(f'base:gpt-4o-2024-08-06: ' + str(EVM.evaluate_results('Sentiment', 'gpt_4o_prediction', 'base:gpt-4o-2024-08-06')))
+# print(
+#     f'base:gpt-4o-2024-08-06: ' + str(EVM.evaluate_results('Sentiment', 'gpt_4o_prediction', 'base:gpt-4o-2024-08-06')))
 # print(f'ft:gpt-4o: ' + str(EVM.evaluate_results('Sentiment', 'ft_gpt_4o_prediction', 'ft:gpt-4o')))
-# print(f'base:gpt-4o-mini-2024-07-18: ' + str(EVM.evaluate_results('Sentiment', 'gpt_4o_mini_prediction', 'base:gpt-4o-mini-2024-07-18')))
+# print(f'base:gpt-4o-mini-2024-07-18: ' + str(
+#     EVM.evaluate_results('Sentiment', 'gpt_4o_mini_prediction', 'base:gpt-4o-mini-2024-07-18')))
 # print(f'ft:gpt-4o-mini: ' + str(EVM.evaluate_results('Sentiment', 'ft_gpt_4o_mini_prediction', 'ft:gpt-4o-mini')))
-# print(f'BERT-Adam: ' + str(EVM.evaluate_results('SentimentNumerical', 'bert_optimizer_Adam_lr_2e-05_epochs_3_bs_6_maxlen_512_prediction', 'BERT-Adam')))
-# print(f'BERT-AdamW: ' + str(EVM.evaluate_results('SentimentNumerical', 'bert_optimizer_AdamW_lr_2e-05_epochs_3_bs_6_maxlen_512_prediction', 'BERT-AdamW')))
+# print(f'BERT-AdamW: ' + str(
+#     EVM.evaluate_results('SentimentNumerical', 'FINBERT_bayes_opt_prediction', 'FINBERT_bayes_opt_prediction')))
+# print(f'BERT-AdamW: ' + str(
+#     EVM.evaluate_results('SentimentNumerical', 'BERT_bayes_opt_prediction', 'BERT_bayes_opt_prediction')))
 # print(f'SVM: ' + str(EVM.evaluate_results('SentimentNumerical', 'svm_predictions', 'SVM')))
+# print(f'Random Forest: ' + str(EVM.evaluate_results('SentimentNumerical', 'rf_predictions', 'rf_predictions')))
+# print(f'Logistic Regression: ' + str(
+#     EVM.evaluate_results('SentimentNumerical', 'logreg_predictions', 'logreg_predictions')))
 
 # print(EVM.plot_heatmap(original_column='Sentiment', prediction_column='gpt_4o_prediction'))
 # print(EVM.plot_heatmap(original_column='Sentiment', prediction_column='ft_gpt_4o_prediction'))
 # print(EVM.plot_heatmap(original_column='Sentiment', prediction_column='gpt_4o_mini_prediction'))
 # print(EVM.plot_heatmap(original_column='Sentiment', prediction_column='ft_gpt_4o_mini_prediction'))
-# print(EVM.plot_heatmap(original_column='SentimentNumerical', prediction_column='bert_optimizer_Adam_lr_2e-05_epochs_3_bs_6_maxlen_512_prediction'))
-# print(EVM.plot_heatmap(original_column='SentimentNumerical', prediction_column='bert_optimizer_AdamW_lr_2e-05_epochs_3_bs_6_maxlen_512_prediction'))
+# print(EVM.plot_heatmap(original_column='SentimentNumerical', prediction_column='BERT_bayes_opt_prediction'))
+# print(EVM.plot_heatmap(original_column='SentimentNumerical', prediction_column='FINBERT_bayes_opt_prediction'))
 # print(EVM.plot_heatmap(original_column='SentimentNumerical', prediction_column='svm_predictions'))
+# print(EVM.plot_heatmap(original_column='SentimentNumerical', prediction_column='rf_predictions'))
+# print(EVM.plot_heatmap(original_column='SentimentNumerical', prediction_column='logreg_predictions'))
